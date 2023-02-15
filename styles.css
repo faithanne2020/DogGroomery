@@ -411,10 +411,27 @@ footer {
 
 .home-image{
     border-radius: 10px;
-    width: 100%;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.our-story{
+    text-align: center;
+    font-size: 1.8em;
+    color: darkslategray;
 }
 
+.pet-header{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: bold;
+    color: darkslategray
+}
+.index-text{
+    text-align: center
+}
 
 .Products-text{
     display: block;
@@ -628,4 +645,35 @@ h1 {
     max-width: 33.33%;
     padding: 0 1em;
   }
+}
+
+
+/*at Home */
+h7{
+    text-align: center;
+    font-size: 2.5em;
+    font-family:fantasy;
+    text-align: center;
+    color: darkslategray;
+
+}
+
+
+.athome-image{
+      border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+}
+.at-home-header{
+    text-align: center;
+    font-size: 1.5em;
+    color: darkslategray;
+    font-family: bold;
+}
+.at-home-text{
+    text-align: center;
+    
 }
