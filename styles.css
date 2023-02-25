@@ -497,12 +497,14 @@ h4{
       }
 /* services */
 
+
 .wrapper{
-    font-family: cursive;
+    width: 1000px;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .wrapper h1{
@@ -531,7 +533,7 @@ h4{
     flex-direction: column;
     background: #A3DAA6;
     margin: 10px 4px;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.2)
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
 }
 
 .card i{
@@ -546,6 +548,37 @@ h4{
 .card p{
     color: black;
     text-align: center;
+}
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 600;
+}
+.card:nth-child(1):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_image .jpg');
+    background-size: cover;
+}
+.card:nth-child(2):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_image .jpg');
+    background-size: cover;
+}
+.card:nth-child(3):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_image .jpg');
+    background-size: cover;
+}
+.card:nth-child(4):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_image .jpg');
+    background-size: cover;
+}
+.card:nth-child(5):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_image .jpg');
+    background-size: cover;
+}
+.card:nth-child(6):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_image .jpg');
+    background-size: cover;
 }
 .services-text{
     text-align: center;
@@ -776,6 +809,8 @@ h7{
     }
     .card{
         align-content: center;
+       
+        
         
     }
 }
