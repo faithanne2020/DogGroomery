@@ -699,10 +699,9 @@ h7{
     
 @media screen and (max-width: 1200px){
     .col1{
-      width: 37%;
-        float: right;
+      width: 100%;
         margin: 10px;
-        height: 800px;
+        height: 350px;
         background-color: #BFE4C1;
     }
     .john-diggle{
@@ -715,9 +714,10 @@ h7{
     }
     .home-image{
         width: 30%;
-        align-content: center;
-
-        
+        align-content: center;        
+    }
+    .our-story{
+        background-color: #BFE4C1;
     }
     .home-col{
         background: #96BC98;
@@ -738,7 +738,7 @@ h7{
     fieldset {
         margin: 2em 0;
         padding: 1em 2em;
-        border; solid 1px #ccc;
+        border: solid 1px #ccc;
         border-radius: 200px;
         min-width: 200px;
     }
@@ -773,5 +773,9 @@ h7{
         color: black;
         font-family: sans-serif;
         font-size: .8em;
+    }
+    .card{
+        align-content: center;
+        
     }
 }
