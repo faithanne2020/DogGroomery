@@ -116,7 +116,6 @@ header {
 }
 
 header h2 {
-    color: #f0525f;
 }
 
 header span {
@@ -427,7 +426,7 @@ footer {
     text-align: center;
     font-size: 1.5em;
     font-family: bold;
-    color: darkslategray
+    color: darkslategray;
 }
 .index-text{
     text-align: center
@@ -457,7 +456,7 @@ h4{
 
 .map{
     align-content: center;
-    width: 100%
+    width: 100%;
 }
 /*FAQ */
 
@@ -498,6 +497,14 @@ h4{
       }
 /* services */
 
+.wrapper{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .wrapper h1{
     font-size: 3em;
     margin: 25px 0;
@@ -512,6 +519,7 @@ h4{
     width: 1000px;
     margin-top: 30px;
 }
+
 .card{
     min-height: 220px;
     width: 320px;
@@ -559,6 +567,7 @@ h4{
         margin: 10px auto;
     }
 }
+
 /* groomers page */
 
 
@@ -676,4 +685,93 @@ h7{
 .at-home-text{
     text-align: center;
     
+}
+@media screen and (max-width: 900px){
+.col1{
+    display: none;
+}
+    .form-grid{
+        display: none;
+        
+    }
+}
+
+    
+@media screen and (max-width: 1200px){
+    .col1{
+      width: 37%;
+        float: right;
+        margin: 10px;
+        height: 800px;
+        background-color: #BFE4C1;
+    }
+    .john-diggle{
+        font-size: 1em;
+        font-family: bold;
+    }
+    h6{
+        font-size: 1.5em;
+        color: darkslategray;
+    }
+    .home-image{
+        width: 30%;
+        align-content: center;
+
+        
+    }
+    .home-col{
+        background: #96BC98;
+        height: 1800px;
+        
+    }
+    .review{
+        padding: 1rem;
+    }
+    .form-grid{
+        text-align: center;
+        background-color: #BFE4C1;
+        width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    }
+    fieldset {
+        margin: 2em 0;
+        padding: 1em 2em;
+        border; solid 1px #ccc;
+        border-radius: 200px;
+        min-width: 200px;
+    }
+    legend{
+        font-size: 1.25em;
+        padding: 0 .25;
+        color: black;
+    }
+    label{
+        display: block;
+        margin-top: 1em;
+    }
+    label:first-of-type {
+        margin-top: 0;
+    }
+    input {
+        padding: .5em;
+        border: solid 1px black;
+    }
+    input[type="email"], input[type="text"]{
+        width: 15em;
+    }
+    input[type="checkbox"] + label{
+        display: inline-block;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    input[type="submit"]{
+        padding: .5em 1em;
+        border-radius: 6px;
+        background-color:darkseagreen;
+        color: black;
+        font-family: sans-serif;
+        font-size: .8em;
+    }
 }
