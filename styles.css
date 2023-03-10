@@ -707,6 +707,16 @@ h7{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.athome-image1{
+      border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+    height: 310px;
+    
+    
     
 }
 .at-home-header{
@@ -725,10 +735,16 @@ h7{
 }
     .form-grid{
         display: none;
-        
+    }
+    .tablet-view{
+        display: none;
     }
 }
-
+@media screen and (min-width: 900px){
+    .mobile-view{
+        display: none;
+    }
+}
     
 @media screen and (max-width: 1200px){
     .col1{
@@ -807,10 +823,104 @@ h7{
         font-family: sans-serif;
         font-size: .8em;
     }
-    .card{
-        align-content: center;
-       
-        
-        
+   .wrapper1{
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper1 h1{
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-box1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.card2{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #A3DAA6;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+}
+
+.card2 i{
+    margin: 20px;
+    color: #ff5724;
+}
+.card2 h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.card2 p{
+    color: black;
+    text-align: center;
+}
+.card2:hover i,
+.card1:hover p{
+    color: #fff;
+}
+.card2:hover h2{
+    font-weight: 600;
+}
+.card2:nth-child(1):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/dog_nail_cipper.jpg');
+    background-size: cover;
+}
+.card2:nth-child(2):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_comb.jpg');
+    background-size: cover;
+}
+.card2:nth-child(3):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/brush.jpg');
+    background-size: cover;
+}
+    .dog-at-home{
+        float: left;
+  width: 50%;
+  padding: 5px;
+    }
+    .cat-at-home{
+        float: right;
+  width: 33.33%;
+  padding: 5px;
+    }
+    .float-end::after{
+         content: "";
+  clear: both;
+  display: table;
+    }
+    .athome-image2{
+        border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+    }
+    .athome-image3{
+        border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+        height: 170px;
     }
 }
