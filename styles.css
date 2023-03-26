@@ -429,7 +429,8 @@ footer {
     color: darkslategray;
 }
 .index-text{
-    text-align: center
+    text-align: center;
+        padding: 0px 0px 0px 10px.
 }
 
 .Products-text{
@@ -687,8 +688,8 @@ h1 {
     max-width: 33.33%;
     padding: 0 1em;
   }
+    
 }
-
 
 /*at Home */
 h7{
@@ -713,8 +714,8 @@ h7{
  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-    height: 270px;
+  width: 80%;
+    
     
     
     
@@ -728,6 +729,7 @@ h7{
 .at-home-text{
     text-align: center;
     
+    
 }
 @media screen and (max-width: 900px){
 .col1{
@@ -739,13 +741,20 @@ h7{
     .tablet-view{
         display: none;
     }
+    
 }
 @media screen and (min-width: 900px){
     .mobile-view{
-        display: none;
-    }
+        display: none;}
+    
+    
 }
     
+    @media screen and (max-width: 1200px){
+        .mobile-view{
+            display: none;
+        }
+    }
 @media screen and (max-width: 1200px){
     .col1{
       width: 100%;
@@ -756,10 +765,15 @@ h7{
     .john-diggle{
         font-size: 1em;
         font-family: bold;
+        padding: 0px 0px 0px 30px;
+    }
+    .review{
+        padding: 0px 0px 0px 20px;
     }
     h6{
         font-size: 1.5em;
         color: darkslategray;
+        padding: 0px 0px 0px 10px;
     }
     .home-image{
         width: 30%;
@@ -893,6 +907,7 @@ h7{
     background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/brush.jpg');
     background-size: cover;
 }
+    
     .dog-at-home{
         float: left;
   width: 50%;
@@ -971,5 +986,254 @@ h7{
         color: black;
         font-family: sans-serif;
         font-size: .8em;
+    }
+}
+    @media screen and (max-width: 900px){
+        
+    }
+    
+/* desktop view */
+    @media screen and (max-width: 1200px){
+        .desktop-view{
+            display: none;
+        }
+        
+    }
+   
+    
+    }
+@media screen and (max-width: 900px){
+        .desktop-view{
+            display: none;
+        }
+    .tablet-view{
+        display: none;
+    }
+    }
+   
+@media screen and (min-width: 1300px){
+    /* Home page */
+    .col1{
+      width: 100%;
+        margin: 10px;
+        height: 350px;
+        background-color: #BFE4C1;
+    }
+    .index-text{
+        padding: 0px 0px 0px 10px;
+    }
+    .john-diggle{
+        font-size: 1em;
+        font-family: bold;
+        padding: 0px 0px 0px 30px;
+    }
+    .review{
+        padding: 0px 0px 0px 20px;
+    }
+    h6{
+        font-size: 1.5em;
+        color: darkslategray;
+        padding: 0px 0px 0px 10px;
+    }
+    .home-image{
+        width: 40%;
+        align-content: left; 
+        align-items: left;
+        padding: 0px 0px 0px 20px;
+    }
+    .our-story{
+        background-color: #BFE4C1;
+        width: 100%;
+        
+    }
+    .home-col{
+        background: #96BC98;
+        height: 1800px;
+        width: 70%;
+    }
+    .column4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+    margin: -2170px 0px 0px 1000px;
+        
+        
+  }
+    .card4 {
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+  padding: 3.5em 1em;
+  border-radius: 0.6em;
+  color: #1f003b;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #ffffff;
+  margin: 25px 50px 55px 20px;
+        position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+  
+}
+.card4 .img-container1 {
+  width: 8em;
+  height: 8em;
+  background-color: #97DD9A ;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+.card4 img {
+  width: 100%;
+    height: 100%;
+  border-radius: 50%;
+}
+.card4 h3 {
+  font-weight: 500;
+}
+.card4 p {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.5em 0 2em 0;
+  letter-spacing: 2px;
+}
+.card4 a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+.card4:hover {
+  background: linear-gradient(#0F6613 , #339137 );
+  color: #ffffff;
+}
+.card4:hover .img-container1 {
+  transform: scale(1.15);
+}
+    .end-home{
+        color: #96BC98;
+        margin: 25px 20px 1605px 0px;
+    }
+    /* Products */
+    .wrapper1{
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper1 h1{
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-box1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.card2{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #A3DAA6;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+}
+
+.card2 i{
+    margin: 20px;
+    color: #ff5724;
+}
+.card2 h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.card2 p{
+    color: black;
+    text-align: center;
+}
+.card2:hover i,
+.card1:hover p{
+    color: #fff;
+}
+.card2:hover h2{
+    font-weight: 600;
+}
+.card2:nth-child(1):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/dog_nail_cipper.jpg');
+    background-size: cover;
+}
+.card2:nth-child(2):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/cat_comb.jpg');
+    background-size: cover;
+}
+.card2:nth-child(3):hover{
+    background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/brush.jpg');
+    background-size: cover;
+}
+    .col2{
+      width: 80%;
+        margin: 30px 0px 0px 140px;
+        height: 350px;
+        background-color: #BFE4C1;
+    }
+    /* at home */
+    .dog-at-home{
+        float: left;
+  width: 50%;
+  padding: 5px;
+    }
+    .cat-at-home{
+        float: right;
+  width: 50%;
+  padding: 5px;
+       
+    }
+    
+    .float-end::after{
+         content: "";
+  clear: both;
+  display: table;
+    }
+    .athome-image2{
+        border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+
+    }
+    .athome-image3{
+        border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+    }
+    .athome-image5{
+         border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+    .athome-image6{
+     border-radius: 10px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35.8%;
+    
     }
 }
