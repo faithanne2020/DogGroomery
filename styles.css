@@ -508,7 +508,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .wrapper h1{
@@ -590,6 +590,7 @@ h4{
 @media(max-width: 991px){
     .wrapper{
         padding: 25px;
+        width: 500px;   
     }
     .wrapper h1{
         font-size: 2.5em;
@@ -604,12 +605,16 @@ h4{
         margin: 10px auto;
     }
     .services-text{
-    text-align: center;
-        font-size: 1.2em;
-        margin: 10px 300px 10px 10px
-        
+  position: relative;
+        left: 200px;
+        width: 300px;
+}
+ .wrapper1{
+    position: relative;
+     left:-250px;
 }
 }
+
 
 /* groomers page */
 
@@ -698,6 +703,7 @@ h1 {
     padding: 0 1em;
   }
     
+    
 }
 
 /*at Home */
@@ -723,7 +729,7 @@ h7{
  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 54%;
     
     
     
@@ -741,7 +747,7 @@ h7{
     
 }
 @media screen and (max-width: 900px){
-.col1{
+{
     display: none;
 }
     .form-grid{
@@ -755,6 +761,14 @@ h7{
             font-size: 1.2em;
         margin: 10px 400px 10px 10px;
     }
+    .wrapper1{
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
   
     
     
@@ -858,7 +872,7 @@ h7{
     }
    .wrapper1{
     width: 1000px;
-    margin: 0px auto;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1015,6 +1029,9 @@ h7{
     @media screen and (max-width: 1200px){
         .desktop-view{
             display: none;
+        }
+        .athome-image1{
+            width: 80%
         }
         
     }
@@ -1201,6 +1218,12 @@ h7{
     background: linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255,0,82,0.8) 100%),url('images/brush.jpg');
     background-size: cover;
 }
+
+         .services-text{
+  position: relative;
+        left: 200px;
+        width: 400px;
+    }
     .col2{
       width: 80%;
         margin: 30px 0px 0px 140px;
@@ -1234,7 +1257,7 @@ h7{
  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 63%;
 
     }
     .athome-image3{
@@ -1249,7 +1272,7 @@ h7{
  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 34%;
     }
     .athome-image6{
      border-radius: 10px;
@@ -1257,6 +1280,115 @@ h7{
   margin-left: auto;
   margin-right: auto;
   width: 35.8%;
-    
+    }
+     .col2{
+      width: 90%;
+        margin: 10px 10px 10px 100px;
+        height: 100%;
+        background-color: #BFE4C1;
+         border-color: #406953;
+         border-style: solid;
+  border-width: 5px;
+    }
+    .john-diggle2{
+        font-size: 1em;
+        font-family: bold;
+        padding: 0px 0px 0px 30px;
+    }
+    .review2{
+        padding: 0px 0px 0px 20px;
+        background-color: #406953;
+        color: white;
+    }
+    h6{
+        font-size: 1.5em;
+        color: darkslategray;
+        padding: 0px 0px 0px 10px;
+    }
+    .map{
+        width: 50%;
+        position: relative;
+        left: 30px;
+        height: 300p
+    }
+    .form-grid{
+        text-align: center;
+        background-color: #BFE4C1;
+        width: 100%;
+  padding: 12px 20p ;
+  margin: 8px 100px 0px -120px;
+  box-sizing: border-box;
+        width: 40%;
+        position: relative;
+        right: -900px;
+        top: -460px
+    }
+    fieldset {
+        margin: 2em 0;
+        padding: 1em 2em;
+        border: solid 1px #ccc;
+        border-radius: 200px;
+        min-width: 200px;
+    }
+    legend{
+        font-size: 1.25em;
+        padding: 0 .25;
+        color: black;
+    }
+    label{
+        display: block;
+        margin-top: 1em;
+    }
+    label:first-of-type {
+        margin-top: 0;
+    }
+    input {
+        padding: .5em;
+        border: solid 1px black;
+    }
+    input[type="email"], input[type="text"]{
+        width: 15em;
+    }
+    input[type="checkbox"] + label{
+        display: inline-block;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    input[type="submit"]{
+        padding: .5em 1em;
+        border-radius: 6px;
+        background-color:darkseagreen;
+        color: black;
+        font-family: sans-serif;
+        font-size: .8em;
+    }
+    .hours-of-oporation{
+        font-size: 1.5em;
+         background-color: #BFE4C1;
+         margin: -200px  700px -550px -10px;
+        position: relative;
+        left: 40px;
+        top: -479px;
+    }
+    .hours-header{
+        font-size: 1.9em;
+        font-family: fantasy;
+        color: darkslategray;
+        background-color: #BFE4C1;
+      
+    }
+    .th{
+        
     }
 }
+
+
+
+
+<tr><th>Sunday</th><td>Closed</td></tr>
+<tr><th>Monday</th><td>9am - 5pm</td></tr>
+<tr><th>Tuesday</th><td>9am - 5pm</td></tr>
+<tr><th>Wednesday</th><td>9am - 5pm</td></tr>
+<tr><th>Thursday</th><td>9am - 5pm</td></tr>
+</table>
+    </div>
