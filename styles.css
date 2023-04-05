@@ -61,6 +61,7 @@ a.active,a:hover{
     nav ul li a{
         font-size: 16px;    
     }
+    
 }
 @media (max-width: 858px){
     .checkbtn{
@@ -605,10 +606,10 @@ h4{
         margin: 10px auto;
     }
     .services-text{
-  position: relative;
-        left: 200px;
-        width: 300px;
-}
+  position:static;
+        padding: 10px 10px 10px 400px;
+        width: 700px;}
+    
  .wrapper1{
     position: relative;
      left:-250px;
@@ -824,6 +825,14 @@ h7{
         padding: 1rem;
     }
     .form-grid{
+        text-align: center;
+        background-color: #BFE4C1;
+        width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    }
+    .form-grid1{
         text-align: center;
         background-color: #BFE4C1;
         width: 100%;
@@ -1072,10 +1081,11 @@ h7{
         padding: 0px 0px 0px 10px;
     }
     .home-image{
-        width: 40%;
+        width: 30%;
         align-content: left; 
         align-items: left;
         padding: 0px 0px 0px 20px;
+        
     }
     .our-story{
         background-color: #BFE4C1;
@@ -1104,9 +1114,11 @@ h7{
   transition: 0.3s;
   background-color: #ffffff;
   margin: 25px 50px 55px 20px;
-        position: relative;
-  left: 30px;
+  position: absolute;
+        top: 200px;
+        right: -10px;
   border: 3px solid #73AD21;
+        width: 350px;
   
 }
 .card4 .img-container1 {
@@ -1319,9 +1331,9 @@ h7{
   margin: 8px 100px 0px -120px;
   box-sizing: border-box;
         width: 40%;
-        position: relative;
-        right: -900px;
-        top: -460px
+        position: absolute;
+        right: -10px;
+        top: 288px
     }
     fieldset {
         margin: 2em 0;
@@ -1366,9 +1378,10 @@ h7{
         font-size: 1.5em;
          background-color: #BFE4C1;
          margin: -200px  700px -550px -10px;
-        position: relative;
+        position: absolute;
         left: 40px;
-        top: -479px;
+        top: 970px;
+        width: 50%
     }
     .hours-header{
         font-size: 1.9em;
@@ -1380,15 +1393,78 @@ h7{
     .th{
         
     }
+     .logo1{
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    padding: 0 20px;
+    font-weight: bold;
+    text-align: left;
+}
+    fieldset1 {
+        margin: 2em 0;
+        padding: 1em 2em;
+        border: solid 1px white;
+        border-radius: 200px;
+        min-width: 200px;
+    }
+    legend1{
+        font-size: 1.75em;
+        padding: 0 .25;
+        color: black;
+    }
+    label1{
+        display: block;
+        margin-top: 1em;
+    }
+    label1:first-of-type {
+        margin-top: 1;
+    }
+    input {
+        padding: .5em;
+        border: solid 1px black;
+    }
+    input[type="email"], input[type="text"]{
+        width: 15em;
+    }
+    input[type="checkbox"] + label{
+        display: inline-block;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    input[type="submit"]{
+        padding: .5em 1em;
+        border-radius: 6px;
+        background-color:darkseagreen;
+        color: black;
+        font-family: sans-serif;
+        font-size: .8em;
+    }
+    .form-grid1{
+        text-align: center;
+        background-color: #BFE4C1;
+        width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    }
+    .FAQ-design{
+        font-size: 26em;
+        color: white;
+    }
+    .home-image7{
+       width: 1300px;
+    }
+    .home-image8{
+       width: 1300px;
+    }
+    .home-image9{
+       width: 1300px;
+    }
+    .services-text{
+  position:static;
+        width: 700px;
 }
 
 
 
-
-<tr><th>Sunday</th><td>Closed</td></tr>
-<tr><th>Monday</th><td>9am - 5pm</td></tr>
-<tr><th>Tuesday</th><td>9am - 5pm</td></tr>
-<tr><th>Wednesday</th><td>9am - 5pm</td></tr>
-<tr><th>Thursday</th><td>9am - 5pm</td></tr>
-</table>
-    </div>
